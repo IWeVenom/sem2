@@ -1,0 +1,55 @@
+.H1{
+    margin: 5pt 35pt ;
+    font-size:400%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text{
+    margin: 0pt 50pt;
+}
+.q {
+   font-size: 200%;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.min{
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info_row {
+    margin: 0pt 20pt;
+    text-transform: uppercase;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title{
+    font-weight: bold;
+    text-decoration: none;
+    margin: 30pt 0pt;
+    list-style-type: none;
+    
+}
+.title1{
+    margin: 1cm 40pt;
+    list-style-type: none;
+}
+.img{
+    margin: 20pt 50pt ;
+}
+.skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 50pt;
+}
+
+.skills-list li {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    color: #000000;
+    font-size: 16px;
+    padding: 20px 20px;
+    background-color: #FFF;
+    border: 2px solid #4453b7;
+    border-radius: 25px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
