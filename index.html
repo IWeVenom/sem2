@@ -5,33 +5,100 @@
             <title>Document</title>
             <link rel="stylesheet" type="text/css" href="styles/g.css">
         </head>
-        <body>
-            <div>
-                <h1 class="H1">Обо мне </h1>
-                <img class="img" src="img/вен.jpg" alt="" width="250" >
-            </div>
-            <div class="info_row">
-                <ul class="title">
-                    <li>Имя</li>
-                    <li>Мои навоки</li>
-                    <li>e-mail</li>
+        <body class="body">
+            <header class="header" id="header">
+                <div class="container">
+                    <div class="header-inner">
+                        <a href="index.html" class="logo">
+                            <span>IV</span>IWeVenom
+                        </a>
+                        <ul class="social">
+                            <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div>
+                    <h1 class="H1">I am artist </h1>
+                    <img class="img" src="img/вен.jpg" alt="" width="250" >
+                </div>
+                <div class="info_row">
+                    <ul class="title">
+                        <li>Имя</li>
+                        <li>Мои навоки</li>
+                        <li>e-mail</li>
+                    </ul>
+                    <ul class="title1">
+                        <li>Хаев Георгий</li>
+                        <li>CG art</li>
+                        <li>example@example.ru</li>
+                    </ul>
+                </div>
+                <div class="text">
+                    <p class="q">Hi </p>
+                    <p class="main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima magnam ex cum minus quasi. Eligendi quos deleniti non, molestias sunt pariatur fugiat corrupti quaerat nam maiores neque vel laudantium ipsam hic esse similique a asperiores unde labore beatae iste aliquid. Aliquam consectetur qui, rem cum cupiditate explicabo? Laboriosam unde eveniet sint. Possimus pariatur voluptatibus nam modi praesentium aliquam cum tempore esse repellendus rem a, sed explicabo? Ullam ducimus quibusdam in assumenda? Odio quasi placeat non molestias impedit cumque ea? Porro dolor sit explicabo fuga totam ratione rerum excepturi dolorem! Tenetur recusandae quis aspernatur aliquid dignissimos molestiae optio reiciendis iusto? Aspernatur officiis, temporibus odit harum, reiciendis ipsam aliquid quam laboriosam iure minima unde eligendi aut necessitatibus assumenda veritatis doloremque, ducimus nemo. </p>
+                    <b></b>
+                </div>
+                <ul class="skills-list">
+                    <li>Photoshop</li>
+                    <li>Valorant</li>
+                    <li>DBD</li>
+                    <li>HTML</li>
                 </ul>
-                <ul class="title1">
-                    <li>Хаев Георгий</li>
-                    <li>CG art</li>
-                    <li>example@example.ru</li>
-                </ul>
-            </div>
-            <div class="text">
-                <p class="q">Ку!</p>
-                <p class="main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima magnam ex cum minus quasi. Eligendi quos deleniti non, molestias sunt pariatur fugiat corrupti quaerat nam maiores neque vel laudantium ipsam hic esse similique a asperiores unde labore beatae iste aliquid. Aliquam consectetur qui, rem cum cupiditate explicabo? Laboriosam unde eveniet sint. Possimus pariatur voluptatibus nam modi praesentium aliquam cum tempore esse repellendus rem a, sed explicabo? Ullam ducimus quibusdam in assumenda? Odio quasi placeat non molestias impedit cumque ea? Porro dolor sit explicabo fuga totam ratione rerum excepturi dolorem! Tenetur recusandae quis aspernatur aliquid dignissimos molestiae optio reiciendis iusto? Aspernatur officiis, temporibus odit harum, reiciendis ipsam aliquid quam laboriosam iure minima unde eligendi aut necessitatibus assumenda veritatis doloremque, ducimus nemo. </p>
-                <b></b>
-            </div>
-            <ul class="skills-list">
-                <li>Photoshop</li>
-                <li>Valorant</li>
-                <li>DBD</li>
-                <li>HTML</li>
-            </ul>
+                <div class="contact">
+                    <h2>Contact me</h2>
+                    <form method="POST" id="contactForm" name="contactForm" class="contactForm" novalidate="novalidate">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="label" for="name">Full Name</label>
+                                    <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="label" for="email">Email Address</label>
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label class="label" for="subject">Subject</label>
+                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label class="label" for="#">Message</label>
+                                    <textarea name="message" class="form-control" id="message" cols="30" rows="4"
+                                            placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12" style="margin-top: 10px">
+                                <div class="form-group">
+                                    <input type="submit" value="Send Message" class="btn btn-primary">
+                                    <div class="submitting"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </main>
+            <footer class="footer-distributed">
+                <div class="footer-left">
+                    <p class="footer-links">
+                        <a class="link-1" href="#">Home</a>
+                        <a href="#">about me</a>
+                        <a href="#">resume</a>
+                        <a href="#">portfolio</a>
+                        <a href="#">blog</a>
+                        <a href="#">Contact</a>
+                    </p>
+                    <p>IWeVenom &copy; 2022</p>
+                </div>
+            </footer>    
         </body>
     </html>
